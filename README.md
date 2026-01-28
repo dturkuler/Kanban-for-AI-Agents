@@ -12,7 +12,7 @@
 
 
 <div align="center">
-  <video src="https://github.com/dturkuler/kanban-for-ai-agents/raw/master/assets/Kanvas_for_AI_agents.mp4" width="100%" controls></video>
+  [![Watch the video](https://raw.githubusercontent.com/dturkuler/kanban-for-ai-agents/master/assets/thumbnail.png)](https://raw.githubusercontent.com/dturkuler/kanban-for-ai-agents/master/assets/Kanvas_for_AI_agents.mp4)
 </div>
 
 
