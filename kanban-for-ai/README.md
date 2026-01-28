@@ -4,10 +4,13 @@
 
 This VS Code extension enables AI agents to create, track, and manage project tasks through markdown-based Kanban boards without requiring UI interaction. It serves as the visual interface for the [Kanban for AI Agents](https://github.com/dturkuler/kanban-for-ai-agents) system.
 
-![Kanban Board](https://via.placeholder.com/800x400/1e1e1e/ffffff?text=Kanban+Board+Demo)
+<div align="center">
+  [![Kanban for AI Agents Demo](https://img.youtube.com/vi/dhFO3qpe_64/0.jpg)](https://www.youtube.com/watch?v=dhFO3qpe_64)
+</div>
 
 [![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://marketplace.visualstudio.com/items?itemName=doganturkuler.kanban-for-ai-agents)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://www.youtube.com/watch?v=dhFO3qpe_64)
 [![GitHub](https://img.shields.io/badge/github-repo-black.svg)](https://github.com/dturkuler/kanban-for-ai-agents)
 
 ## 🤖 Designed for AI Agents
