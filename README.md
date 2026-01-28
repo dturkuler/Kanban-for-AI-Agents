@@ -3,7 +3,7 @@
 **Empowering AI agents to autonomously manage projects using a standardized, filesystem-based Kanban system.**
 
 ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg) [![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://www.youtube.com/watch?v=dhFO3qpe_64)
 
 ## 📋 Overview
 
@@ -12,7 +12,7 @@
 
 
 <div align="center">
-  [![Watch the video](https://raw.githubusercontent.com/dturkuler/kanban-for-ai-agents/master/assets/thumbnail.png)](https://raw.githubusercontent.com/dturkuler/kanban-for-ai-agents/master/assets/Kanvas_for_AI_agents.mp4)
+  [![Kanban for AI Agents Demo](https://img.youtube.com/vi/dhFO3qpe_64/0.jpg)](https://www.youtube.com/watch?v=dhFO3qpe_64)
 </div>
 
 
