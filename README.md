@@ -1,97 +1,86 @@
 # Kanban for AI Agents
 
-**Programmatic Kanban board management for AI coding assistants.**
+**Empowering AI agents to autonomously manage projects using a standardized, filesystem-based Kanban system.**
 
-This project provides a standardized, markdown-based Kanban system designed specifically for AI agents to autonomously manage projects, track tasks, and document specifications. It includes a VS Code extension for human visualization and interaction.
+![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-## Project Overview
+## 📋 Overview
 
-The core idea is to use the filesystem as the database for project management. Kanban boards are just folders, and tasks are markdown files with YAML frontmatter. This allows AI agents (like me!) to read, create, and update project status using standard file operations, while humans can use the VS Code extension for a rich UI experience.
+**Kanban for AI Agents** bridges the gap between human project management and AI autonomy. It treats the filesystem as a database (`.kanbans/`), allowing AI coding assistants to programmatically create, update, and track tasks using standard markdown files. This enables true agency: agents can plan their work, track their progress, and document specifications without needing to interact with a GUI, while humans can visualize and manage the same boards using the companion VS Code extension.
 
-### Example Structure
+## ✨ Key Features
 
-A Kanban board is structured as follows:
+-   **Filesystem-based Database**: zero-dependency, portable, and version-controllable.
+-   **AI-First Design**: Optimized for agents to read/write using standard file operations.
+-   **Hybrid Workflow**: Seamless interoperability between AI (CLI/File ops) and Humans (VS Code UI).
+-   **Standardized Metadata**: Strict schema for task tracking (status, progress, dependencies).
+-   **Integrated Skill**: Ready-to-use definition for AI agents to adopt this workflow immediately.
 
-```
-.kanbans/
-└── My Project/           # Board Name
-    └── .kanbn/
-        ├── index.md      # Board definition (columns)
-        └── tasks/        # Individual task files
-            ├── setup-project.md
-            └── implement-auth.md
-```
+## 🛠️ Tech Stack
 
-**index.md Example:**
+-   **Core**: Markdown, YAML Frontmatter
+-   **Extension**: TypeScript, VS Code API
+-   **AI Integration**: Custom Agent Skill Definition
 
-```markdown
-## Backlog
-- [Implement Auth](tasks/implement-auth.md)
+## 🚀 Getting Started
 
-## In Progress
-- [Setup Project](tasks/setup-project.md)
+### Prerequisites
 
-## Done
-```
-
-## VS Code Extension
-
-The **Kanban for AI Agents** extension provides a visual interface for these markdown boards.
-
-- **Name**: Kanban for AI Agents (`kanban-ai-agents`)
-- **Publisher**: doganturkuler
-- **Version**: 0.0.1
-- **Features**:
-  - Visual Kanban board view of your markdown files.
-  - Drag-and-drop tasks between columns.
-  - Create, edit, and delete boards and tasks.
-  - Fully compatible with the AI agent's markdown format.
+-   **VS Code**: v1.80.0 or higher
+-   **AI Assistant**: effectively any agentic AI (e.g., Antigravity, Cline) capable of reading/writing files.
 
 ### Installation
 
-You can install the extension from the `.vsix` package included in this repository:
-
-1.  Go to the `kanban-for-ai` directory.
-2.  Install `kanban-ai-agents-0.0.1.vsix` into VS Code.
-
-## Antigravity Skill: Kanban Manager
-
-This repository defines a standardized skill for AI agents to interact with this system.
-
-- **Skill Location**: [.agent/skills/kanban-manager/SKILL.md](.agent/skills/kanban-manager/SKILL.md)
-- **Goal**: Enable AI assistants to manage project lifecycle (planning, tracking, reporting) autonomously.
-
-### core Rules
-
-All AI coding assistants working in this workspace **MUST** follow the **Kanban Project Management Rule**. This ensures consistency and proper state tracking.
-
-**Rule Location**: [.agent/rules/kanban-manager.md](.agent/rules/kanban-manager.md)
-
-#### Summary of Rules
-
-1.  **Mandatory Usage**:
-    *   **Project Planning**: Create boards for new features.
-    *   **Task Tracking**: All work must be tracked as tasks.
-    *   **Progress**: Update `progress` (0.0 - 1.0) and `updated` timestamps regularly.
-
-2.  **Workflow**:
-    *   **Initialize**: Create board -> Break down work -> Add to Backlog.
-    *   **Execute**: Move to 'In Progress' -> Update Progress -> Mark sub-tasks complete.
-    *   **Complete**: Move to 'Done' -> Set progress to 1.0 -> Add final comment.
-
-3.  **Metadata Requirements**:
-    Every task file MUST have valid YAML frontmatter:
-    ```yaml
-    ---
-    created: 2026-01-28T04:30:00.000Z
-    updated: 2026-01-28T05:00:00.000Z
-    assigned: Antigravity
-    progress: 0.5
-    tags: [backend, implementation]
-    ---
+1.  **Install the Extension**:
+    Since this is currently in development, you can install the VSIX package directly:
+    ```bash
+    code --install-extension kanban-for-ai/kanban-ai-agents-0.0.1.vsix
     ```
 
-4.  **Task Types**:
-    *   **Specification**: For requirements (no code).
-    *   **Implementation**: For coding tasks.
-    *   **Bug Fix**: For tracking repairs.
+2.  **Equip Your AI Agent**:
+    Ensure your AI assistant has access to the Kanban Manager skill rules located at:
+    `[.agent/skills/kanban-manager/SKILL.md](.agent/skills/kanban-manager/SKILL.md)`
+
+### Usage
+
+1.  **Initialize a Board**:
+    Create a new folder in `.kanbans/` or use the VS Code command `Kanban: Create Board`.
+
+2.  **Create Tasks**:
+    Add markdown files to the `.kanbn/tasks/` directory of your board.
+
+3.  **Track Progress**:
+    *   **Humans**: Drag and drop tasks in the Kanban board UI.
+    *   **AI**: Move lines between headers in `index.md` and update `progress` metadata in task files.
+
+4.  **Visualize**:
+    Open the board by running `Kanban: Open Board` from the Command Palette.
+
+## 🤖 AI Agent Guidelines
+
+To use this system effectively, AI agents must adhere to the **Kanban Project Management Rule**.
+
+> [!IMPORTANT]
+> **Mandatory Rule for Agents**:
+> Review the core rules at [.agent/rules/kanban-manager.md](.agent/rules/kanban-manager.md) before starting any task.
+
+### Quick Rules Summary
+1.  **Structure**: All work -> Tasks.
+2.  **Metadata**: Keep `updated` and `progress` fields current.
+3.  **Filenames**: Use `kebab-case` for task IDs.
+
+## 🤝 Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit pull requests, report issues, and request features.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Maintainers
+
+-   **Dogan Turkuler** - [GitHub Profile](https://github.com/doganturkuler)
+
+---
+*Built with ❤️ for the future of Agentic Coding.*
