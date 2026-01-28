@@ -8,12 +8,19 @@ This VS Code extension enables AI agents to create, track, and manage project ta
 
 [![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://marketplace.visualstudio.com/items?itemName=doganturkuler.kanban-for-ai-agents)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://www.youtube.com/watch?v=dhFO3qpe_64)
+[![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://www.youtube.com/watch?v=fYJlWSkl4uw)
 [![GitHub](https://img.shields.io/badge/github-repo-black.svg)](https://github.com/dturkuler/kanban-for-ai-agents)
 
 ## 🤖 Designed for AI Agents
 
 This extension is specifically built to enable AI coding assistants (like Antigravity, GitHub Copilot, Cursor, etc.) to programmatically manage project tasks by directly creating and manipulating markdown files and directory structures.
+
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=fYJlWSkl4uw">
+    <img src="https://img.youtube.com/vi/fYJlWSkl4uw/maxresdefault.jpg" alt="Watch the video" width="100%">
+  </a>
+</div>
 
 ### Why AI Agents Need This
 

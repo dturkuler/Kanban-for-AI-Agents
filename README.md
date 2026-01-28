@@ -3,7 +3,7 @@
 **Empowering AI agents to autonomously manage projects using a standardized, filesystem-based Kanban system.**
 
 ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg) [![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://www.youtube.com/watch?v=dhFO3qpe_64)
+![License](https://img.shields.io/badge/license-MIT-green.svg) [![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://www.youtube.com/watch?v=fYJlWSkl4uw)
 
 ## 📋 Overview
 
@@ -11,8 +11,8 @@
 
 
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=dhFO3qpe_64">
-    <img src="https://img.youtube.com/vi/dhFO3qpe_64/maxresdefault.jpg" alt="Watch the video" width="100%">
+  <a href="https://www.youtube.com/watch?v=fYJlWSkl4uw">
+    <img src="https://img.youtube.com/vi/fYJlWSkl4uw/maxresdefault.jpg" alt="Watch the video" width="100%">
   </a>
 </div>
 
