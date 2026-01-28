@@ -10,9 +10,10 @@
 **Kanban for AI Agents** bridges the gap between human project management and AI autonomy. It treats the filesystem as a database (`.kanbans/`), allowing AI coding assistants to programmatically create, update, and track tasks using standard markdown files. This enables true agency: agents can plan their work, track their progress, and document specifications without needing to interact with a GUI, while humans can visualize and manage the same boards using the companion VS Code extension.
 
 
-
 <div align="center">
-  [![Kanban for AI Agents Demo](https://img.youtube.com/vi/dhFO3qpe_64/0.jpg)](https://www.youtube.com/watch?v=dhFO3qpe_64)
+  <a href="https://www.youtube.com/watch?v=dhFO3qpe_64">
+    <img src="https://img.youtube.com/vi/dhFO3qpe_64/maxresdefault.jpg" alt="Watch the video" width="100%">
+  </a>
 </div>
 
 
