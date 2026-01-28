@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Kanban Extension",
+            "type": "extensionHost",
+            "request": "launch",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}/kanban-for-ai",
+                "${workspaceFolder}"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/kanban-for-ai/out/**/*.js"
+            ],
+            "preLaunchTask": "npm: watch (kanban-for-ai)"
+        }
+    ]
+}

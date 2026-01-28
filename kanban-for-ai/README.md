@@ -2,13 +2,13 @@
 
 **Programmatic Kanban board management designed for AI coding assistants.**
 
-This VS Code extension enables AI agents to create, track, and manage project tasks through markdown-based Kanban boards without requiring UI interaction. It serves as the visual interface for the [Kanban for AI Agents](https://github.com/doganturkuler/kanban-for-ai-agents) system.
+This VS Code extension enables AI agents to create, track, and manage project tasks through markdown-based Kanban boards without requiring UI interaction. It serves as the visual interface for the [Kanban for AI Agents](https://github.com/dturkuler/kanban-for-ai-agents) system.
 
 ![Kanban Board](https://via.placeholder.com/800x400/1e1e1e/ffffff?text=Kanban+Board+Demo)
 
 [![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://marketplace.visualstudio.com/items?itemName=doganturkuler.kanban-for-ai-agents)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![GitHub](https://img.shields.io/badge/github-repo-black.svg)](https://github.com/doganturkuler/kanban-for-ai-agents)
+[![GitHub](https://img.shields.io/badge/github-repo-black.svg)](https://github.com/dturkuler/kanban-for-ai-agents)
 
 ## 🤖 Designed for AI Agents
 
@@ -82,7 +82,7 @@ Link related tasks with dependencies to handle complex workflows:
 ### Installation
 
 1.  **From VSIX**:
-    Download the latest `.vsix` release from the [GitHub Releases](https://github.com/doganturkuler/kanban-for-ai-agents/releases) page.
+    Download the latest `.vsix` release from the [GitHub Releases](https://github.com/dturkuler/kanban-for-ai-agents/releases) page.
     ```bash
     code --install-extension kanban-ai-agents-0.0.1.vsix
     ```
@@ -90,7 +90,7 @@ Link related tasks with dependencies to handle complex workflows:
 2.  **From Source**:
     Clone the repository and build locally:
     ```bash
-    git clone https://github.com/doganturkuler/kanban-for-ai-agents.git
+    git clone https://github.com/dturkuler/kanban-for-ai-agents.git
     cd kanban-for-ai-agents/kanban-for-ai
     npm install
     npm run compile
@@ -104,7 +104,7 @@ Link related tasks with dependencies to handle complex workflows:
 3.  **Organize**: Drag and drop tasks; click to edit details.
 
 #### For AI Agents
-AI agents manage the board by writing files. See the [Kanban Manager Skill](https://github.com/doganturkuler/kanban-for-ai-agents/tree/main/.agent/skills/kanban-manager) for the full protocol.
+AI agents manage the board by writing files. See the [Kanban Manager Skill](https://github.com/dturkuler/kanban-for-ai-agents/tree/main/.agent/skills/kanban-manager) for the full protocol.
 
 **Create a Board Programmatically:**
 ```bash
@@ -134,13 +134,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Maintainers
 
--   **Dogan Turkuler** - [GitHub Profile](https://github.com/doganturkuler)
+-   **Dogan Turkuler** - [GitHub Profile](https://github.com/dturkuler)
 
 ## 🔗 Links
 
--   **GitHub Repository**: [https://github.com/doganturkuler/kanban-for-ai-agents](https://github.com/doganturkuler/kanban-for-ai-agents)
--   **Issues**: [Report a Bug](https://github.com/doganturkuler/kanban-for-ai-agents/issues)
--   **Documentation**: [Project Wiki](https://github.com/doganturkuler/kanban-for-ai-agents/wiki)
+-   **GitHub Repository**: [https://github.com/dturkuler/kanban-for-ai-agents](https://github.com/dturkuler/kanban-for-ai-agents)
+-   **Issues**: [Report a Bug](https://github.com/dturkuler/kanban-for-ai-agents/issues)
+-   **Documentation**: [Project Wiki](https://github.com/dturkuler/kanban-for-ai-agents/wiki)
 
 ---
-*Part of the [Kanban for AI Agents](https://github.com/doganturkuler/kanban-for-ai-agents) ecosystem.*
+*Part of the [Kanban for AI Agents](https://github.com/dturkuler/kanban-for-ai-agents) ecosystem.*

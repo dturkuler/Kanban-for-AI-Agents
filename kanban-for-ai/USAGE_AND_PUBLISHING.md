@@ -227,7 +227,7 @@ Update `kanban-for-ai/package.json`:
   "publisher": "doganturkuler",
   "repository": {
     "type": "git",
-    "url": "https://github.com/doganturkuler/kanban-for-ai-agents"
+    "url": "https://github.com/dturkuler/kanban-for-ai-agents"
   },
   "icon": "icon.png",
   "categories": ["Other", "Visualization"],
@@ -313,12 +313,12 @@ SOFTWARE.
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/doganturkuler/kanban-for-ai-agents"
+    "url": "https://github.com/dturkuler/kanban-for-ai-agents"
   },
   "bugs": {
-    "url": "https://github.com/doganturkuler/kanban-for-ai-agents/issues"
+    "url": "https://github.com/dturkuler/kanban-for-ai-agents/issues"
   },
-  "homepage": "https://github.com/doganturkuler/kanban-for-ai-agents#readme",
+  "homepage": "https://github.com/dturkuler/kanban-for-ai-agents#readme",
   "icon": "icon.png",
   "categories": ["Other", "Visualization"],
   "keywords": [
@@ -361,7 +361,7 @@ SOFTWARE.
   "badges": [
     {
       "url": "https://img.shields.io/github/stars/doganturkuler/kanban-for-ai-agents",
-      "href": "https://github.com/doganturkuler/kanban-for-ai-agents",
+      "href": "https://github.com/dturkuler/kanban-for-ai-agents",
       "description": "GitHub Stars"
     }
   ],

@@ -9,6 +9,12 @@
 
 **Kanban for AI Agents** bridges the gap between human project management and AI autonomy. It treats the filesystem as a database (`.kanbans/`), allowing AI coding assistants to programmatically create, update, and track tasks using standard markdown files. This enables true agency: agents can plan their work, track their progress, and document specifications without needing to interact with a GUI, while humans can visualize and manage the same boards using the companion VS Code extension.
 
+
+
+<video src="assets/Kanvas%20for%20AI%20agents.mp4" width="100%" controls></video>
+
+
+
 ## ✨ Key Features
 
 -   **Filesystem-based Database**: zero-dependency, portable, and version-controllable.
@@ -80,7 +86,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Maintainers
 
--   **Dogan Turkuler** - [GitHub Profile](https://github.com/doganturkuler)
+-   **Dogan Turkuler** - [GitHub Profile](https://github.com/dturkuler)
 
 ---
 *Built with ❤️ for the future of Agentic Coding.*
