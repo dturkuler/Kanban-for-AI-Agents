@@ -11,7 +11,9 @@
 
 
 
-<video src="assets/Kanvas%20for%20AI%20agents.mp4" width="100%" controls></video>
+<div align="center">
+  <video src="assets/Kanvas for AI agents.mp4" width="100%" controls></video>
+</div>
 
 
 
