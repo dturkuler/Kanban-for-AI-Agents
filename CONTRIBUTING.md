@@ -1,5 +1,7 @@
 # Contributing to Kanban for AI Agents
 
+**Project Home**: [https://github.com/dturkuler/kanban-for-ai-agents](https://github.com/dturkuler/kanban-for-ai-agents)
+
 Thank you for your interest in contributing! We welcome all contributions to help make AI agent project management better.
 
 ## How to Contribute
