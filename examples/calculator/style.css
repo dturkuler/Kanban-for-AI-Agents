@@ -1,0 +1,213 @@
+/* Premium Modern Calculator Styles */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    /* Rich Gradient Background */
+    background: linear-gradient(135deg, #1e0533 0%, #11011e 100%);
+    color: #fff;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.calculator {
+    /* Glassmorphism Effect */
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 24px;
+    border-radius: 24px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+    width: 340px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.display {
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 3.5rem;
+    padding: 24px;
+    text-align: right;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 60px;
+    /* Fixed height for consistency */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 50px;
+    /* Round buttons */
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: inherit;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: scale(0.95) translateY(0);
+}
+
+/* Number Buttons */
+.btn-num {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-num:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Operator Buttons */
+.btn-op {
+    background: linear-gradient(135deg, #ff9f0a 0%, #ff7b00 100%);
+    color: white;
+    box-shadow: 0 4px 10px rgba(255, 123, 0, 0.3);
+}
+
+/* Action Buttons (C, AC) */
+.btn-action {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ff4d4d;
+    font-weight: 600;
+}
+
+.btn-action:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+/* Equals Button */
+.btn-eq {
+    background: linear-gradient(135deg, #32d74b 0%, #28a745 100%);
+    color: white;
+    grid-row: span 2;
+    border-radius: 24px;
+    /* More pill-like due to span */
+    box-shadow: 0 4px 10px rgba(40, 167, 69, 0.3);
+}
+
+.zero {
+    grid-column: span 2;
+    border-radius: 24px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+.display {
+    background: #222;
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 20px;
+    text-align: right;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: 'Consolas', monospace;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s, opacity 0.2s;
+    font-family: inherit;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.btn-num {
+    background: #f0f0f0;
+    color: #333;
+}
+
+.btn-op {
+    background: #ff9f0a;
+    color: white;
+}
+
+.btn-action {
+    background: #d4d4d2;
+    color: #333;
+}
+
+.btn-eq {
+    background: #34c759;
+    color: white;
+    grid-row: span 2;
+}
+
+.zero {
+    grid-column: span 2;
+}
